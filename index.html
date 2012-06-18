@@ -30,6 +30,25 @@
 <body>
 	<script type="text/javascript">
 		
+for(var i=0 ; i<100 ; i++){
+			document.write('<div class="div-rnd"></div>');
+		}
+		
+		function num_rnd(a,b){
+			var num = Math.floor(Math.random()*(b-a+1)+a);
+			return num;
+		}
+			
+		function color_rnd(){
+			var c='#';
+			for(var i=0 ; i<6 ; i++){
+				c += num_rnd(0,15).toString(16);	
+			}	
+			return c;
+		}	
+				
+		
+		
 		
 	</script>
 </body>
