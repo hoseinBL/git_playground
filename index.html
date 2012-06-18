@@ -47,7 +47,20 @@ for(var i=0 ; i<100 ; i++){
 			return c;
 		}	
 				
-		
+		var divs= document.getElementsByClassName('div-rnd');
+		function auto_motion(){
+			
+			for(var i=0 ; i<divs.length ; i++){
+				divs.item(i).style.width = num_rnd(6,30) + 'px';
+				divs.item(i).style.height = num_rnd(3,20) + 'px';
+				divs.item(i).style.top = num_rnd(5,95) + '%';
+				divs.item(i).style.left = num_rnd(5,95) + '%';
+				divs.item(i).style.backgroundColor = color_rnd();
+				document.body.style.backgroundColor = color_rnd();
+			}
+		}
+		auto_motion();
+		setInterval(auto_motion,800);
 		
 		
 	</script>
