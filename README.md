@@ -3,4 +3,10 @@
 A nuclear bomb exploded and destroy everything (git hard reset test) :tr
 
 i'm Ali.MD kh kh kh
+<<<<<<< HEAD
 <h1>bhjil cyfxjt fryuc ,asdasdasdasda</h1>
+=======
+bhjil cyfxjt fryuc ,
+
+salaaaaaaaaaaaaam :D
+>>>>>>> origin/master
