@@ -1,4 +1,4 @@
 git_playground
 ==============
 
-git play ground github page :-)
+git play ground github page ;)

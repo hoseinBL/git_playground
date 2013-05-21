@@ -1,7 +1,15 @@
 ---
 layout: post
-title: Blogging Like a Hacker
+title: Home page ;)
 ---
 
 <h1>Lorem ipsum dolor sit amet.</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas ducimus nostrum similique sunt possimus voluptates distinctio rem repellat impedit perferendis architecto at laboriosam cupiditate voluptas quibusdam. Nostrum neque quia et commodi beatae quo odio rem minus fugit pariatur incidunt blanditiis corporis ex reprehenderit adipisci sint quam error debitis! Maiores ea dolorum natus quod tempora quisquam sunt sed quas cum itaque aliquam obcaecati libero eaque odio dolor doloribus impedit perferendis totam fuga reprehenderit a. Expedita voluptatibus molestias maxime facilis doloribus molestiae placeat aperiam nam optio praesentium voluptatem adipisci atque eum quis repudiandae asperiores autem nostrum corporis sequi esse sed fugiat facere.</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
