@@ -1,2 +1,3 @@
 url: http://alimd.github.io/git_playground/
+baseurl: /git_playground/
 permalink: /:categories/:title/
