@@ -10,6 +10,6 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusantium s
 
 {% gist 5551345 %}
 
-{% gist 5450025 "Sublime Text 2 for Web Developers.md" %}
+{% gist 5450025 %}
 
 [mypic]: https://secure.gravatar.com/avatar/f2af3ff36c10d206b74f68aacf68e08d?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png "Ali Mihandoost Website"
