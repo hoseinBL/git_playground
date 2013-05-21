@@ -6,9 +6,9 @@ categories: blog
 ---
 
 # Simple chat in node.js
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia accusantium sint odio corporis magnam explicabo atque nam vero quisquam sapiente.
+pygments testing !
 
-{% highlight javascript %}
+{% highlight javascript linenos %}
 var
   port = 8124,
   net = require('net'),
