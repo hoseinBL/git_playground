@@ -1,4 +1,6 @@
 url: http://alimd.github.io/git_playground
 baseurl: /git_playground
 permalink: /:categories/:title/
+safe: true
+lsi: false
 pygments: true
